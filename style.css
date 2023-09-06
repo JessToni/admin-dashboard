@@ -8,3 +8,15 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 }
+
+.sidebar {
+    background-color: steelblue;
+}
+
+.header {
+    background-color: aquamarine;
+}
+
+.articles {
+    background-color: blueviolet;
+}
