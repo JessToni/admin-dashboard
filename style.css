@@ -68,6 +68,10 @@ body {
 	grid-template-columns: 3fr 1fr;
 }
 
+.left-article {
+	display: grid;
+}
+
 /*Span of rows and columns*/
 
 .sidebar {
@@ -86,6 +90,10 @@ body {
 
 .left-article {
 	background-color: brown;
+}
+
+.cards {
+	background-color: azure;
 }
 
 .right-article {
