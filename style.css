@@ -63,6 +63,11 @@ body {
     grid-template-rows: 1fr 2fr 2fr;
 }
 
+.sidebar {
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+}
+
 .articles {
 	display: grid;
 	grid-template-columns: 3fr 1fr;
@@ -81,6 +86,14 @@ body {
 .sidebar {
     background-color: steelblue;
 	grid-row: 1 / span 3;
+}
+
+.side-top {
+	background-color: yellow;
+}
+
+.side-bottom {
+	background-color: yellowgreen;
 }
 
 .header {
