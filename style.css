@@ -55,13 +55,20 @@ body {
 	height: 100%;
 }
 
-/*Styling and positioning container and contents*/
+/*Styling and positioning containers*/
 
 .main-container {
     display: grid;
     grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 2fr 2fr;
 }
+
+.articles {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+}
+
+/*Span of rows and columns*/
 
 .sidebar {
     background-color: steelblue;
@@ -75,4 +82,12 @@ body {
 .articles {
     background-color: blueviolet;
 	grid-row: 2 / span 2;
+}
+
+.left-article {
+	background-color: brown;
+}
+
+.right-article {
+	background-color: purple;
 }
