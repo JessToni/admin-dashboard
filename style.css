@@ -65,6 +65,7 @@ body {
 
 .sidebar {
     background-color: steelblue;
+	grid-row: 1 / span 3;
 }
 
 .header {
@@ -73,4 +74,5 @@ body {
 
 .articles {
     background-color: blueviolet;
+	grid-row: 2 / span 2;
 }
