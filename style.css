@@ -44,12 +44,18 @@ table {
 	border-spacing: 0;
 }
 
-/*Establish size for body*/
+/*Establish size for body and other parts*/
 
 body {
     width: 100vw;
     height: 100vh;
 }
+
+.main-container {
+	height: 100%;
+}
+
+/*Styling and positioning container and contents*/
 
 .main-container {
     display: grid;
