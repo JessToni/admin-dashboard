@@ -80,6 +80,13 @@ body {
 	padding: 15px;
 }
 
+.right-article {
+	display: grid;
+	grid-template-rows: 2;
+	gap: 15px;
+	padding: 15px;
+}
+
 /*Span of rows and columns*/
 
 .sidebar {
@@ -114,4 +121,12 @@ body {
 
 .right-article {
 	background-color: purple;
+}
+
+.announcements {
+	background-color: antiquewhite;
+}
+
+.trending {
+	background-color: beige;
 }
