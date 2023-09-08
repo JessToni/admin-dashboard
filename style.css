@@ -47,8 +47,7 @@ table {
 /*Establish size for body and other parts*/
 
 body {
-    width: 100vw;
-    height: 100vh;
+	height: 100vh;
 }
 
 .main-container {
