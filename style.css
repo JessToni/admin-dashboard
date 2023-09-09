@@ -106,9 +106,21 @@ body {
 	gap: 20px;
 }
 
+.icon-container{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 20px;
+}
+
+.side-top svg {
+	width: 30px;
+}
+
 .side-top p {
 	font-size: 20px;
 	font-weight: bolder;
+	padding-top: 1px;
 }
 
 .dashboard-logo svg {
