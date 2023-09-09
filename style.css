@@ -131,6 +131,11 @@ body {
 	width: 50px;
 }
 
+.header {
+    background-color: var(--header-color);
+	box-shadow: 10px 5px 5px black;
+}
+
 .articles {
 	display: grid;
 	grid-template-columns: 3fr 1fr;
@@ -167,7 +172,7 @@ body {
 }
 
 .header {
-    background-color: var(--header-color);
+
 }
 
 .articles {
