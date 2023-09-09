@@ -87,6 +87,12 @@ body {
 	grid-template-rows: 1fr 1fr;
 }
 
+.dashboard-logo {
+	font-size: large;
+	font-weight: 1000;
+	color: var(--header-color);
+}
+
 .articles {
 	display: grid;
 	grid-template-columns: 3fr 1fr;
