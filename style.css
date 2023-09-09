@@ -48,8 +48,8 @@ table {
 :root {
 	--sidebar-color: #9EB384;
 	--accent-color: #435334;
-	--header-color: #CEDEBD;
-	--main-bg-color: #FAF1E4;
+	--main-bg-color: #CEDEBD;
+	--header-color: #FAF1E4;
 }
 
 /*Establish size for body and other parts*/
@@ -96,7 +96,7 @@ body {
 
 /*Span of rows and columns*/
 .sidebar {
-    background-color: steelblue;
+    background-color: var(--sidebar-color);
 	grid-row: 1 / span 3;
 }
 
@@ -109,30 +109,27 @@ body {
 }
 
 .header {
-    background-color: aquamarine;
+    background-color: var(--header-color);
 }
 
 .articles {
-    background-color: blueviolet;
+    background-color: var(--main-bg-color);
 	grid-row: 2 / span 2;
 }
 
 .left-article {
-	background-color: brown;
+
 }
 
 .cards {
-	background-color: azure;
+	background-color: var(--header-color);
 }
 
 .right-article {
-	background-color: purple;
+
 }
 
-.announcements {
-	background-color: antiquewhite;
-}
-
+.announcements,
 .trending {
-	background-color: beige;
+	background-color: var(--header-color);
 }
