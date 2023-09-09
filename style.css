@@ -86,13 +86,13 @@ body {
 	display: grid;
 	grid-template-rows: 1fr 5.5fr 6fr;
 	gap: 3rem;
+	padding-left: 20px;
 }
 
 .dashboard-logo {
 	font-size: large;
 	font-weight: 1000;
 	color: var(--header-color);
-	padding-left: 20px;
 	padding-top: 20px;
 }
 
