@@ -87,15 +87,28 @@ body {
 	grid-template-rows: 1fr 5.5fr 6fr;
 	gap: 3rem;
 	padding-left: 20px;
+	text-shadow: 1px 0 var(--header-color);
+	color: var(--header-color);
 }
 
 .dashboard-logo {
 	display: flex;
 	font-size: large;
 	font-weight: 1000;
-	color: var(--header-color);
+
 	padding-top: 20px;
 	place-items: center;
+}
+
+.side-top {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.side-top p {
+	font-size: 20px;
+	font-weight: bolder;
 }
 
 .dashboard-logo svg {
