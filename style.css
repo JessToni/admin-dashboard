@@ -116,12 +116,12 @@ body {
 
 .side-top svg,
 .side-bottom svg {
-	width: 30px;
+	width: 25px;
 }
 
 .side-top p,
 .side-bottom p {
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: bolder;
 	padding-top: 1px;
 }
