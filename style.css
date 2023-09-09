@@ -44,8 +44,15 @@ table {
 	border-spacing: 0;
 }
 
-/*Establish size for body and other parts*/
+/*Create CSS custom properties declaration*/
+:root {
+	--sidebar-color: #9EB384;
+	--accent-color: #435334;
+	--header-color: #CEDEBD;
+	--main-bg-color: #FAF1E4;
+}
 
+/*Establish size for body and other parts*/
 body {
 	height: 100vh;
 }
@@ -55,7 +62,6 @@ body {
 }
 
 /*Styling and positioning containers*/
-
 .main-container {
     display: grid;
     grid-template-columns: 1fr 5fr;
@@ -89,7 +95,6 @@ body {
 }
 
 /*Span of rows and columns*/
-
 .sidebar {
     background-color: steelblue;
 	grid-row: 1 / span 3;
