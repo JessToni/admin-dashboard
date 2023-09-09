@@ -90,10 +90,16 @@ body {
 }
 
 .dashboard-logo {
+	display: flex;
 	font-size: large;
 	font-weight: 1000;
 	color: var(--header-color);
 	padding-top: 20px;
+	place-items: center;
+}
+
+.dashboard-logo svg {
+	width: 50px;
 }
 
 .articles {
