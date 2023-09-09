@@ -84,7 +84,7 @@ body {
 
 .sidebar {
 	display: grid;
-	grid-template-rows: 1fr 1fr;
+	grid-template-rows: 1fr 5.5fr 6fr;
 }
 
 .dashboard-logo {
