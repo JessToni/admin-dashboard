@@ -223,6 +223,18 @@ input:focus {
 	color: var(--accent-color);
 }
 
+.buttons-bar button {
+	width: 5rem;
+	font-family: var(--main-font-family);
+	font-weight: bolder;
+	background-color: var(--sidebar-color);
+	color: var(--header-color);
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-style: none;
+	border-radius: 15px;
+}
+
 .articles {
 	display: grid;
 	grid-template-columns: 3fr 1fr;
