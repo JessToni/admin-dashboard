@@ -192,7 +192,9 @@ input:focus {
 }
 
 .publisher-text h1 {
-	font-weight: 900;
+	font-weight: 1000;
+	text-shadow: 1px 0 var(--accent-color);
+	letter-spacing: 0.5px;
 }
 
 .header-right {
