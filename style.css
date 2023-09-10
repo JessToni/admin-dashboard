@@ -203,7 +203,12 @@ input:focus {
 }
 
 .notif-bar {
-	
+	display: flex;
+}
+
+.notif-bar img {
+	width: 20px;
+	height: 20px;
 }
 
 .articles {
