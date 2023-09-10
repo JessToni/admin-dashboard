@@ -170,11 +170,20 @@ input:focus {
 
 .publisher {
 	display: flex;
+	gap: 20px;
+	padding-left: 20px;
+	padding-top: 15px;
 }
 
 .publisher img {
 	width: 50px;
 	height: 50px;
+}
+
+.publisher-text {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
 }
 
 .header-right {
