@@ -87,7 +87,6 @@ body {
 	grid-template-rows: 1fr 5.5fr 6fr;
 	gap: 3rem;
 	padding-left: 20px;
-	text-shadow: 1px 0 var(--header-color);
 	color: var(--header-color);
 }
 
@@ -95,9 +94,10 @@ body {
 	display: flex;
 	font-size: large;
 	font-weight: 1000;
-
 	padding-top: 20px;
 	place-items: center;
+	text-shadow: 1px 0 var(--header-color);
+	letter-spacing: 1px;
 }
 
 .side-top,
@@ -123,7 +123,6 @@ body {
 .side-bottom p {
 	font-size: 18px;
 	font-weight: bolder;
-	letter-spacing: 1.2px;
 	padding-top: 1px;
 }
 
