@@ -152,7 +152,7 @@ body {
 
 .search-bar input {
 	height: 24px;
-	width: 90%;
+	width: 100%;
 	border-radius: 50px;
 	padding-left: 15px;
 	border-style: none;
@@ -199,16 +199,28 @@ input:focus {
 
 .header-right {
 	display: grid;
-	grid-template-rows: 1fr 1fr;
+	grid-template-rows: 2fr 3fr;
 }
 
 .notif-bar {
 	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;
+}
+
+.notif-bar svg {
+	width: 25px;
 }
 
 .notif-bar img {
-	width: 20px;
-	height: 20px;
+	width: 30px;
+	height: 30px;
+}
+
+.notif-bar h1 {
+	font-weight: bold;
+	color: var(--accent-color);
 }
 
 .articles {
