@@ -170,9 +170,9 @@ input:focus {
 
 .publisher {
 	display: flex;
+	align-items: center;
 	gap: 20px;
 	padding-left: 20px;
-	padding-top: 15px;
 }
 
 .publisher img {
@@ -183,7 +183,16 @@ input:focus {
 .publisher-text {
 	display: flex;
 	flex-direction: column;
-	gap: 10px;
+	gap: 4px;
+	color: var(--accent-color);
+}
+
+.publisher-text p {
+	font-size: smaller;
+}
+
+.publisher-text h1 {
+	font-weight: 900;
 }
 
 .header-right {
