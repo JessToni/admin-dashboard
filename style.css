@@ -143,6 +143,14 @@ body {
 	grid-template-rows: 2fr 3fr;
 }
 
+.search-bar {
+
+}
+
+.search-bar svg {
+	width: 25px;
+}
+
 .publisher {
 	background-color: gray;
 }
