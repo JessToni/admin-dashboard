@@ -155,6 +155,13 @@ body {
 	width: 70%;
 	border-radius: 50px;
 	padding-left: 15px;
+	border-style: none;
+	background-color: var(--main-bg-color);
+	color: var(--accent-color);
+}
+
+input:focus {
+	outline-color: var(--accent-color);
 }
 
 .search-bar svg {
