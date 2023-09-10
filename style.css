@@ -138,6 +138,15 @@ body {
 	box-shadow: 10px 5px 5px black;
 }
 
+.header-left {
+	display: grid;
+	grid-template-rows: 2fr 3fr;
+}
+
+.publisher {
+	background-color: gray;
+}
+
 .header-right {
 	background-color: #435334;
 }
