@@ -132,8 +132,14 @@ body {
 }
 
 .header {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
     background-color: var(--header-color);
 	box-shadow: 10px 5px 5px black;
+}
+
+.header-right {
+	background-color: #435334;
 }
 
 .articles {
