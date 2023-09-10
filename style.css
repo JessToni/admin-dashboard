@@ -245,6 +245,11 @@ input:focus {
 	border-radius: 15px;
 }
 
+.buttons-bar button:active {
+	border-style: solid;
+	border-color: var(--accent-color);
+}
+
 .articles {
 	display: grid;
 	grid-template-columns: 3fr 1fr;
