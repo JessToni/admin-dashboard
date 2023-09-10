@@ -186,33 +186,13 @@ body {
 	grid-row: 1 / span 3;
 }
 
-.side-top {
-
-}
-
-.side-bottom {
-	
-}
-
-.header {
-
-}
-
 .articles {
     background-color: var(--main-bg-color);
 	grid-row: 2 / span 2;
 }
 
-.left-article {
-
-}
-
 .cards {
 	background-color: var(--header-color);
-}
-
-.right-article {
-
 }
 
 .announcements,
