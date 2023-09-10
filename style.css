@@ -152,7 +152,7 @@ body {
 
 .search-bar input {
 	height: 24px;
-	width: 80%;
+	width: 90%;
 	border-radius: 50px;
 	padding-left: 15px;
 	border-style: none;
@@ -198,7 +198,12 @@ input:focus {
 }
 
 .header-right {
-	background-color: #435334;
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+}
+
+.notif-bar {
+	
 }
 
 .articles {
