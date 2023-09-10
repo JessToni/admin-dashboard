@@ -168,8 +168,8 @@ input:focus {
 	width: 25px;
 }
 
-.publisher {
-	background-color: gray;
+.publisher img {
+	width: 50px;
 }
 
 .header-right {
