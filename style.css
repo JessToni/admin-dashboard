@@ -256,6 +256,12 @@ input:focus {
 	grid-template-rows: 1fr 25fr;
 }
 
+.articles-header {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	
+}
+
 .left-article {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
