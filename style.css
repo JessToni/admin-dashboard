@@ -275,10 +275,12 @@ input:focus {
 
 .right-article {
 	display: grid;
-	grid-template-rows: 2;
+	grid-template-rows: 10fr 1fr 10fr;
 	gap: 15px;
 	padding: 15px 0px 15px;
 	padding-right: 20px;
+	font-weight: bolder;
+	color: var(--accent-color);
 }
 
 /*Span of rows and columns*/
