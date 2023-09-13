@@ -253,13 +253,14 @@ input:focus {
 .articles {
 	display: grid;
 	grid-template-columns: 3fr 1fr;
-	grid-template-rows: 1fr 25fr;
+	grid-template-rows: 1fr 15fr;
 }
 
 .articles-header {
 	display: grid;
 	grid-template-columns: 3fr 1fr;
-	
+	align-items: flex-end;
+	padding-left: 15px;
 }
 
 .left-article {
