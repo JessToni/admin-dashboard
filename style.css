@@ -265,6 +265,12 @@ input:focus {
 	color: var(--accent-color);
 }
 
+.cards,
+.announcements,
+.trending {
+	border-radius: 10px;
+}
+
 .left-article {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
