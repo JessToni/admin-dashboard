@@ -261,6 +261,8 @@ input:focus {
 	grid-template-columns: 3fr 1fr;
 	align-items: flex-end;
 	padding-left: 15px;
+	font-weight: bolder;
+	color: var(--accent-color);
 }
 
 .left-article {
