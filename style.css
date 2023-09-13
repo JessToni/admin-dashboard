@@ -253,6 +253,7 @@ input:focus {
 .articles {
 	display: grid;
 	grid-template-columns: 3fr 1fr;
+	grid-template-rows: 1fr 25fr;
 }
 
 .left-article {
@@ -280,6 +281,10 @@ input:focus {
 .articles {
     background-color: var(--main-bg-color);
 	grid-row: 2 / span 2;
+}
+
+.articles-header {
+	grid-column: 1 / span 2;
 }
 
 .cards {
