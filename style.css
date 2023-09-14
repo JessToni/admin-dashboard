@@ -347,6 +347,12 @@ input:focus {
 	display: grid;
 	grid-template-rows: 1fr 1fr 1fr;
 	align-items: center;
+	padding-left: 15px;
+}
+
+.trending > div {
+	display: grid;
+	grid-template-columns: 1fr 5fr;
 }
 
 .trending-header {
@@ -358,8 +364,12 @@ input:focus {
 	font-size: 15px;
 }
 
+.description {
+	font-size: 15px;
+}
+
 .trending div img {
-	width: 25px;
+	width: 30px;
 }
 
 /*Span of rows and columns*/
