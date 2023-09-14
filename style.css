@@ -273,6 +273,10 @@ input:focus {
 	border-left: 10px solid var(--accent-color);
 }
 
+.card-text {
+	padding-right: 3rem;
+}
+
 .cards div h1 {
 	font-weight: 1000;
 }
