@@ -313,8 +313,28 @@ input:focus {
 	gap: 15px;
 	padding: 15px 0px 15px;
 	padding-right: 20px;
-	font-weight: bolder;
 	color: var(--accent-color);
+}
+
+.announcements {
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	font-size: 13px;
+	padding: 15px;
+}
+
+.announcements div,
+.announcements h1,
+.announcements p {
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+	align-items: center;
+
+}
+
+.announcements h1 {
+	font-weight: bold;
 }
 
 /*Span of rows and columns*/
