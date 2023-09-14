@@ -266,6 +266,10 @@ input:focus {
 }
 
 .cards {
+	display: grid;
+	grid-template-rows: 2fr 1fr;
+	padding-left: 15px;
+	padding-top: 2rem;
 	border-left: 10px solid var(--accent-color);
 }
 
