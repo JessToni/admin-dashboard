@@ -343,6 +343,10 @@ input:focus {
 	font-weight: bold;
 }
 
+.trending-header {
+	font-weight: bolder;
+}
+
 /*Span of rows and columns*/
 .sidebar {
     background-color: var(--sidebar-color);
