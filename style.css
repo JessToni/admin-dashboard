@@ -322,6 +322,7 @@ input:focus {
 	grid-template-rows: 1fr 1fr 1fr;
 	font-size: 13px;
 	padding: 15px;
+	gap: 10px;
 }
 
 .announcements div,
@@ -331,7 +332,11 @@ input:focus {
 	flex-direction: column;
 	justify-items: center;
 	align-items: center;
+}
 
+.announcements-1,
+.announcements-2 {
+	border-bottom: 2px solid var(--main-bg-color);
 }
 
 .announcements h1 {
