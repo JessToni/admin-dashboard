@@ -275,6 +275,7 @@ input:focus {
 
 .card-text {
 	padding-right: 3rem;
+	color: var(--accent-color);
 }
 
 .cards div h1 {
