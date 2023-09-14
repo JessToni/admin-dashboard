@@ -343,8 +343,23 @@ input:focus {
 	font-weight: bold;
 }
 
+.trending {
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	align-items: center;
+}
+
 .trending-header {
 	font-weight: bolder;
+}
+
+.trending .user {
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.trending div img {
+	width: 25px;
 }
 
 /*Span of rows and columns*/
