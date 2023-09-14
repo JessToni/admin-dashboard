@@ -273,6 +273,10 @@ input:focus {
 	border-left: 10px solid var(--accent-color);
 }
 
+.cards div h1 {
+	font-weight: 1000;
+}
+
 .icons {
 	display: flex;
 	justify-content: flex-end;
