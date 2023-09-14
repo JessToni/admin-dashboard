@@ -265,6 +265,10 @@ input:focus {
 	color: var(--accent-color);
 }
 
+.cards {
+	border-left: 10px solid var(--accent-color);
+}
+
 .cards,
 .announcements,
 .trending {
